@@ -1,0 +1,142 @@
+.reviews .review-slider{
+    padding-bottom: 3rem;
+}
+
+.reviews .review-slider .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:20px;
+    margin: 2rem 0;
+    opacity: .4;
+    transform: scale(.9);
+}
+
+.reviews .review-slider .swiper-slide-active{
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 1px 4px 41px rgba(0,0,0,0.1);
+    border:var(--box-shadow);
+    border-radius: 0.5rem;
+}
+
+.reviews .review-slider .box img{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid var(--secon-color);
+}
+
+.reviews .review-slider .box .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    padding:1rem 0;
+}
+
+.reviews .review-slider .box .content h3{
+    color:var(--black);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: .5rem;
+    margin: 0.5rem 0 0.5rem;
+}
+
+.reviews .review-slider .box .content .stars i{
+    color:var(--main-color);
+    font-size: 1.7rem;
+}
+.headingp{
+    padding-bottom: 2.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color:var(--black);
+}
+.headingp span{
+    position: relative;
+    z-index: 0;
+}
+
+.headingp span::before{
+    content: '';
+    position: absolute;
+    bottom:1rem; left:0;
+    height: 100%;
+    width: 100%;
+    background: var(--light-yellow);
+    z-index: -1;
+    clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
+}
+.headingp h1{
+    font-size: 2rem;
+}
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.contact .row .map{
+    flex:5 5 15rem;
+    width: 70%;
+    padding:2rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border-radius: .5rem;
+}
+
+.contact .row form{
+    padding:2rem;
+    flex:1 1 30rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.contact .row form h3{
+    font-size: 3rem;
+    color:var(--black);
+    padding-bottom: 1rem;
+}
+
+.contact .row form .box{
+    width:100%;
+    border-radius: .5rem;
+    padding:1rem 1.5rem;
+    font-size: 1.6rem;
+    text-transform: none;
+    border:var(--border);
+    margin:0.7rem 0;
+}
+
+.contact .row form textarea{
+    height:15rem;
+    resize: none;
+}
+.headinge{
+    padding-bottom: 2.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color:var(--black);
+}
+.headinge span{
+    position: relative;
+    z-index: 0;
+}
+
+.headinge span::before{
+    content: '';
+    position: absolute;
+    bottom:1rem; left:0;
+    height: 100%;
+    width: 100%;
+    background: var(--light-yellow);
+    z-index: -1;
+    clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
+}
+.headinge h1{
+    font-size: 2rem;
+}

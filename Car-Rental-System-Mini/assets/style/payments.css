@@ -1,0 +1,65 @@
+#card-1{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-image:linear-gradient(red,pink);
+    height:100%;
+    background-size: cover;
+
+}
+.para-2{
+    color:rgb(64, 255, 0);
+    font-family: 'caveat';
+    font-size: 20px;
+font-style: italic;
+}
+#para{
+ color:yellow;   
+ font-weight:bold;
+ font-size: 30px;
+ font-family: 'Bree Serif';
+}
+.images-both{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#km-travel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+#width-size{
+    width:35px;
+    height:10px;
+    margin:15px;
+}
+#inputName{
+    height:20px;
+    width: 100px;
+}
+.paragraph-1{
+    font-size: 30px;
+    font-family: "caveat";
+}
+#head-1{
+    color:rgb(246, 226, 3);
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    background-color:#0cdb09;
+    color:white;
+    border-width:0px;
+    width:120px;
+    border-radius:4px;
+    height:40px;
+    margin-left: 300px;
+}
+.img-1{
+width:390px;
+height:390px;
+border-radius:15px;
+}
